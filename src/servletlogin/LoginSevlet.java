@@ -38,7 +38,7 @@ public class LoginSevlet extends HttpServlet {
 					
 					if(rs.next())
 					{
-						  System.out.println( rs.next() +"Passed");
+						  System.out.println( rs.next() +"Passed check");
 					}
 					else
 					{
